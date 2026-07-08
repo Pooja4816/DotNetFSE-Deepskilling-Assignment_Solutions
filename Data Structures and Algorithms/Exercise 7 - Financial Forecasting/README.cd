@@ -1,0 +1,89 @@
+# Exercise 7 - Financial Forecasting
+
+## 1. Understand Recursive Algorithms
+
+Recursion is a programming technique in which a method calls itself to solve a problem.
+
+A recursive solution mainly contains two parts:
+
+- Base Case - Stops the recursive calls.
+- Recursive Case - Calls the same method with a smaller version of the problem.
+
+Recursion can simplify problems where the same calculation needs to be repeated multiple times.
+
+In this exercise, recursion is used to calculate the future financial value by applying a growth rate for a given number of years.
+
+## 2. Setup
+
+A C# Console Application named `FinancialForecasting` was created using Visual Studio.
+
+The project contains the following files:
+
+- `ForecastCalculator.cs` - Contains the recursive method to calculate the future value.
+- `Program.cs` - Provides the financial data and tests the recursive method.
+
+## 3. Implementation
+
+A method named `CalculateFutureValue` was created to calculate the predicted future value.
+
+The method accepts the following values:
+
+- Current Value
+- Growth Rate
+- Number of Years
+
+The recursive method applies the growth rate to the current value and decreases the number of years by one after each recursive call.
+
+The recursion stops when the number of years becomes zero.
+
+### Base Case
+
+When the number of years becomes zero, the method returns the calculated current value.
+
+### Recursive Case
+
+For each recursive call, the growth rate is applied to the current value and the number of remaining years is reduced by one.
+
+For example:
+
+Current Value = 10000
+
+Growth Rate = 10%
+
+Number of Years = 3
+
+The calculation is performed as follows:
+
+Year 1 = 11000
+
+Year 2 = 12100
+
+Year 3 = 13310
+
+Therefore, the predicted future value is 13310.
+
+## 4. Analysis
+
+### Time Complexity
+
+The time complexity of the recursive algorithm is `O(n)`, where `n` represents the number of years.
+
+This is because the method makes one recursive call for each year.
+
+### Space Complexity
+
+The space complexity is `O(n)` because each recursive call uses space in the call stack until the base case is reached.
+
+### Optimization
+
+The current recursive solution makes only one recursive call for each year and does not repeat the same calculations.
+
+However, recursion uses additional call stack memory. For a very large number of years, an iterative approach can be used to reduce the space complexity from `O(n)` to `O(1)`.
+
+Memoization can also be useful in recursive problems where the same calculations are repeated multiple times. It stores previously calculated results and helps avoid unnecessary computations.
+
+### Conclusion
+
+Recursion provides a simple way to calculate future values by repeatedly applying the growth rate until the required number of years is reached.
+
+The implemented solution has a time complexity of `O(n)`. For a large number of calculations, an iterative or mathematical approach can be used for better space efficiency.
