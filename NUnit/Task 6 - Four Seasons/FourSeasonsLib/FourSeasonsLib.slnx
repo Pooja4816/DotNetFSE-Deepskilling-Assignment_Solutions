@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../FourSeasonsLib.Tests/FourSeasonsLib.Tests.csproj" Id="24611e35-7e3b-404c-a817-d3c023052f09" />
+  <Project Path="FourSeasonsLib.csproj" />
+</Solution>
