@@ -1,0 +1,19 @@
+# Ignore all .log files
+*.log
+
+# Ignore the logs directory and all its contents
+logs/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore build output
+build/
+dist/
+bin/
+obj/

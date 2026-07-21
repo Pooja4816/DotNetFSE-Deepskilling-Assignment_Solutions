@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- hello.xml - This file is used to demonstrate merge conflicts in Git HOL 4 -->
+<!-- After resolving the conflict, this file should contain the merged content -->
+<hello>
+    <message>Hello from Resolved Merge - Both branches reconciled</message>
+    <master_message>Hello from Master Branch</master_message>
+    <branch_message>Hello from GitWork Branch</branch_message>
+    <author>Developer A and Developer B (merged)</author>
+    <resolution>3-way merge using P4Merge tool</resolution>
+</hello>

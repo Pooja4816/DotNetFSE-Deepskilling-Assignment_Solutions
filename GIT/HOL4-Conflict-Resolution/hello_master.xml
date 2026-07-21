@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- hello_master.xml - This is what the master branch has in hello.xml -->
+<!-- Developer B committed this to master -->
+<hello>
+    <message>Hello from Master Branch</message>
+    <author>Developer B</author>
+    <branch>master</branch>
+</hello>

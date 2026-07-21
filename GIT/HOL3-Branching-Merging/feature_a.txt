@@ -1,0 +1,12 @@
+Feature A: User Login Module
+==============================
+This file was created on branch: GitNewBranch
+
+Description:
+- Implements user login functionality
+- Validates username and password
+- Returns JWT token on successful login
+
+Author: HOL 3 Demo
+Branch: GitNewBranch
+Merged into: master

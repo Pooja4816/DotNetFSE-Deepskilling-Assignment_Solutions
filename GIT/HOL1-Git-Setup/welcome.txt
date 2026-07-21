@@ -1,0 +1,3 @@
+Welcome to Git Demo
+This file was created as part of Git HOL 1 - Git Setup and First Repository.
+It demonstrates adding and committing files to a local Git repository.

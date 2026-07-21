@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- hello_branch.xml - This is what the GitWork branch has in hello.xml -->
+<!-- Developer A committed this to GitWork branch -->
+<hello>
+    <message>Hello from GitWork Branch</message>
+    <author>Developer A</author>
+    <branch>GitWork</branch>
+</hello>

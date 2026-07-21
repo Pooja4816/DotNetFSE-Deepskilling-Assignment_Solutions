@@ -1,0 +1,12 @@
+# Ignore all .log files
+*.log
+
+# Ignore the logs directory
+logs/
+
+# Ignore merge backup files created by merge tools (P4Merge, etc.)
+*.orig
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db

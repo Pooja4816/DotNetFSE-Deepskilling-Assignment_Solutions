@@ -1,0 +1,12 @@
+Feature B: User Profile Module
+==============================
+This file was created on branch: GitNewBranch
+
+Description:
+- Manages user profile information
+- Supports GET, UPDATE, and DELETE profile operations
+- Returns user details in JSON format
+
+Author: HOL 3 Demo
+Branch: GitNewBranch
+Merged into: master
