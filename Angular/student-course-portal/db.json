@@ -1,0 +1,16 @@
+{
+  "courses": [
+    { "id": 1, "name": "Data Structures", "code": "CS101", "credits": 4, "gradeStatus": "passed", "description": "Fundamental data structures and algorithms", "instructor": "Dr. Smith", "enrolled": false },
+    { "id": 2, "name": "Web Development", "code": "WD201", "credits": 3, "gradeStatus": "pending", "description": "HTML, CSS, JavaScript and modern frameworks", "instructor": "Prof. Johnson", "enrolled": true },
+    { "id": 3, "name": "Database Systems", "code": "DB301", "credits": 4, "gradeStatus": "passed", "description": "Relational and NoSQL databases", "instructor": "Dr. Williams", "enrolled": false },
+    { "id": 4, "name": "Machine Learning", "code": "ML401", "credits": 3, "gradeStatus": "failed", "description": "Supervised and unsupervised learning", "instructor": "Dr. Chen", "enrolled": false },
+    { "id": 5, "name": "Software Engineering", "code": "SE501", "credits": 4, "gradeStatus": "pending", "description": "SDLC, agile, design patterns", "instructor": "Prof. Davis", "enrolled": true }
+  ],
+  "students": [
+    { "id": 1, "name": "Alice Johnson", "email": "alice@university.edu", "gpa": 3.8, "enrolledCourseIds": [2, 5] }
+  ],
+  "enrollments": [
+    { "id": 1, "studentId": 1, "courseId": 2, "semester": "Odd", "enrolledOn": "2024-01-10" },
+    { "id": 2, "studentId": 1, "courseId": 5, "semester": "Even", "enrolledOn": "2024-01-15" }
+  ]
+}

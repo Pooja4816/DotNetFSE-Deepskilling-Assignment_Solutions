@@ -1,0 +1,34 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Dependencies
+/node_modules
+
+# Angular cache
+/.angular
+
+# IDEs and Editors
+/.idea
+/.vscode
+/*.swp
+/*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing & Coverage
+/coverage
+
+# Environment & Local Configuration
+.env
+.env.local

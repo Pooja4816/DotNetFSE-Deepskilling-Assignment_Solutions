@@ -1,0 +1,25 @@
+Angular Hands-On Lab 1 Task 1 - Key Project File Explanations
+
+1. angular.json
+Workspace configuration file that defines build, serve, test, and linting targets, output paths, assets, global styles, scripts, and environment configurations for all projects in the workspace.
+
+2. tsconfig.json
+Root TypeScript compiler configuration file setting options like target ES version, module resolution, strict type-checking flags, experimental decorators, and Angular compiler options.
+
+3. tsconfig.app.json
+TypeScript configuration specific to the application build — extends tsconfig.json and specifies which files to include (e.g. src/main.ts, src/app/**/*.ts) and exclude (test spec files).
+
+4. package.json
+NPM package manifest containing project metadata, scripts (start, build, test, lint), and dependencies (@angular/core, @angular/router, @ngrx/store, rxjs, zone.js, etc.).
+
+5. src/main.ts
+Application bootstrap entry point — calls bootstrapApplication(AppComponent, appConfig) to launch the standalone Angular application.
+
+6. src/app/app.config.ts
+Application-wide provider configuration (replacement for NgModule in standalone Angular v17+) — provides router, HttpClient with interceptors, NgRx store, and effects.
+
+7. src/app/app.component.ts
+Root component rendered into <app-root> in index.html — serves as the top-level container hosting header navigation, global loading spinner, and <router-outlet>.
+
+8. src/index.html
+Single page document served by dev server containing <app-root></app-root>, meta tags, font imports, and favicon.
