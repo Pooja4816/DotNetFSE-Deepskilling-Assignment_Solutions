@@ -1,0 +1,106 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 850px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #0f172a;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-tabs button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1;
+  background-color: #f1f5f9;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.nav-tabs button.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-toggle {
+  padding: 8px 14px;
+  background-color: #475569;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.view-status {
+  text-align: center;
+  color: #3b82f6;
+  margin-bottom: 15px;
+}
+
+.detail-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.book-card h2 { color: #1e40af; }
+.blog-card h2 { color: #065f46; }
+.course-card h2 { color: #92400e; }
+
+.extra-info {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  color: #92400e;
+}
+
+.featured-banner {
+  padding: 10px;
+  background-color: #d1fae5;
+  border-left: 4px solid #10b981;
+  color: #065f46;
+  margin-bottom: 15px;
+}
+
+.status-open {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.status-closed {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.all-sections {
+  border-top: 2px dashed #cbd5e1;
+  padding-top: 20px;
+}
+
+.footer-note {
+  text-align: center;
+  margin-top: 20px;
+  color: #64748b;
+}

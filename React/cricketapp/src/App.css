@@ -1,0 +1,57 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.toggle-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.section-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f8fafc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.section-card h2 {
+  color: #0f172a;
+  border-bottom: 2px solid #cbd5e1;
+  padding-bottom: 6px;
+}
+
+.section-card h3 {
+  color: #334155;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+span {
+  font-weight: bold;
+  color: #d97706;
+}
